@@ -1,8 +1,13 @@
-real = 11
-input = 22
+input = "33"
+real_egoing = 11
+real_k8805 = "ab"
 
-if real == input
-  puts("Hello")
+if real_egoing == input
+  puts("Hello, egoing")
 else
-  puts("Who are you?")
+  if real_k8805 == input
+    puts("Hello!, k8805")
+  else
+    puts("Who are you?")
+  end
 end

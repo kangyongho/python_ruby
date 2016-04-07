@@ -1,5 +1,6 @@
-real = 11
-input = 22
+input = 11
+real_egoing = 11
+real_k8805 = "ab"
 
 if real == input:
     print("Hello!")
