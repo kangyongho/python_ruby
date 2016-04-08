@@ -1,5 +1,7 @@
-in_str = "ab"
-real_egoing = 11
+in_str = input("Input ID please.\n")
+print(type(in_str))
+
+real_egoing = "11"
 real_k8805 = "ab"
 
 if real_egoing == in_str:
