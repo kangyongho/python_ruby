@@ -7,6 +7,6 @@
 # for item in range(5):
 #     print(item)
 
-# It is make array 5 to 10.
+# It makes array 5 to 10.
 for item in range(5, 10):
     print(item)

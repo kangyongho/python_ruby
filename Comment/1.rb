@@ -4,7 +4,7 @@
 #
 # real_egoing = "11"
 # real_k8805 = "ab"
-#
+# 
 # if real_egoing == in_str
 #   puts("Hello, egoing")
 # elsif real_k8805 == in_str #else if가 아니라 e가 빠졌다.
