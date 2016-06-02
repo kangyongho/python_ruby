@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>카카오 개인정보 취급방침</title>
+  <meta name="author" content="KAKAO">
+  <meta name="keywords" content="KAKAO Privacy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+      /* reset */
+      body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+      fieldset,img{border:0 none}
+      dl,ul,ol,menu,li{list-style:none}
+      blockquote, q{quotes: none}
+      blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+      input,select,textarea,button{vertical-align:middle}
+      input::-ms-clear{display:none}
+      button{border:0 none;background-color:transparent;cursor:pointer}
+      body{background:#fff}
+      body,th,td,input,select,textarea,button{font-size:12px;line-height:1.5;font-family:'Malgun Gothic', '맑은 고딕','apple SD gothic neo', dotum, '돋움', sans-serif;color:#666} /* color값은 디자인가이드에 맞게사용 */
+      a{color:#333;text-decoration:none}
+      a:active, a:hover{text-decoration:underline}
+      a:active{background-color:transparent}
+      address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+
+      .ir_pm{display:block;overflow:hidden;font-size:0px;line-height:0;text-indent:-9999px} /* 사용된 이미지내 의미있는 텍스트의 대체텍스트를 제공할때 */
+      .ir_wa{display:block;overflow:hidden;position:relative;z-index:-1;width:100%;height:100%} /* 중요한 이미지 대체텍스트로 이미지off시에도 대체 텍스트를 보여주고자 할때 */
+      .screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px} /* 대체텍스트가 아닌 접근성을 위한 숨김텍스트를 제공할때 */
+
+      .kakao_popup{width:100%;font-size:12px;line-height:1.5}
+      .popup_privacy{border-top:4px solid #ffdc00}
+
+      .popup_head{position:relative;width:940px;margin:0 auto;padding:0 16px}
+      .popup_head .tit_head{padding:72px 0 23px;font-weight:normal;font-size:34px;line-height:1.5;color:#1e1e1e}
+      .popup_head .desc_privacy{padding-right:400px;line-height:22px}
+      .popup_head .wrap_search{position:absolute;top:146px;right:16px}
+
+      .box_searchbar{position:relative;width:300px;height:40px}
+      .wrap_inp{padding-right:40px;border:1px solid #d4d4d4;border-right:none 0}
+      .lab_search{position:absolute;left:19px;top:0;z-index:10;line-height:40px}
+      .tf_search{width:223px;height:38px;padding:0 18px;border:none 0;line-height:38px}
+      .btn_search{position: absolute;right: 0;top: 0;width: 40px;height: 40px;background:url(http://i1.daumcdn.net/image.hope/etc//kakaocom/policy/btn_search.gif) no-repeat 0 0}
+      .btn_search:hover{background:url(http://i1.daumcdn.net/image.hope/etc//kakaocom/policy/btn_search.gif) no-repeat 0 0}
+
+      .popup_body {width:940px;margin:0 auto;padding:0 16px}
+      .popup_body .tbl_privacy{width:940px;margin-top:36px;border:0;border-collapse:collapse;border-spacing:0}
+      .popup_body th{height:59px;padding-right:40px;border-top:1px solid #d4d4d4;border-bottom:1px solid #d4d4d4;font-size:14px;color:#333;background-color:#eaeaea;text-align:left}
+      .popup_body th:first-child{padding:0 5px;border-left:1px solid #d4d4d4;text-align:center}
+      .popup_body th:last-child{border-right:1px solid #d4d4d4}
+      .popup_body td{padding:25px 40px 25px 0;border-bottom:1px solid #eaeaea;color:#666}
+      .popup_body td:first-child{padding:20px 5px;text-align:center}
+
+      .wrap_app{display:table;width:200px}
+      .wrap_app .thumb_app{display:table-cell;vertical-align:middle}
+      .thumb_app .ico_app{margin-right:14px;border-radius:4px;vertical-align:top}
+      .wrap_app .tit_app{display:table-cell;width:130px;font-weight:normal;vertical-align:middle}
+      .wrap_app .txt_tit{display:inline-block;width:130px}
+
+      /* 하단 숫자 */
+      .paging_privacy{height:21px;margin-top:35px;text-align:center}
+      .inner_paging{display:inline-block;overflow:hidden;height:21px;font-size:14px}
+      .inner_paging .link_page{float:left;margin-left:27px;color:#505050}
+      .inner_paging .fst{margin-left:0}
+      .inner_paging .link_page:hover, .inner_paging em.link_page{text-decoration:underline}
+      .paging_privacy .btn_prev , .paging_privacy .btn_next{float:left}
+      .paging_privacy .ico_arr{display:block;overflow:hidden;width:7px;height:21px;background:url(http://i1.daumcdn.net/image.hope/etc//kakaocom/policy/ico_arr.gif) no-repeat 0 0;font-size:0px;line-height:0;text-indent:-9999px}
+      .paging_privacy .btn_prev{margin-right:31px}
+      .paging_privacy .btn_next{margin-left:31px}
+      .paging_privacy .btn_prev .ico_arr{background-position:0 6px}
+      .paging_privacy .btn_next .ico_arr{background-position:100% -19px}
+
+      .popup_foot{height:90px;margin-top:99px;padding-top:23px;border-top:1px solid #eaeaea;text-align:center;color:#888;background-color:#fafafa}
+      .popup_foot .info_copyright{display:block;font-size:11px;line-height:24px}
+      .popup_foot .link_kakao{text-decoration:none;color:#888}
+
+
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 1.5),
+      only screen and (min-device-pixel-ratio: 1.5),
+      only screen and (min-resolution: 1.5dppx)	{
+          .btn_search{background-image:url(http://i1.daumcdn.net/image.hope/etc//kakaocom/policy/btn_search_rtn.gif);-webkit-background-size:40px 40px;background-size:40px 40px}
+
+      }
+
+  </style>
+  <script src="http://s1.daumcdn.net/svc/original/U03/cssjs/jquery/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript">
+    function ajax_call(query) {
+        $.ajax({
+            type: 'GET',
+            url: '/ajaxtest',
+            dataType: 'json',
+            async: false,
+            data: {
+                page: 10,
+                limit: 10,
+                q: query
+            },
+            success: function(response){
+                var tbody = $('.tbl_privacy').find('tbody');
+                $(tbody).empty();
+                if (response.elements.length > 0) {
+                    $.each(response.elements, function (ind, obj) {
+                        // append the checkbox panels to tool div
+                        $(tbody).append(
+                                '<tr>'+
+                                '<td>' + obj.id +'</td>'+
+                                '<td>'+
+                                '<div class="wrap_app">'+
+                                '<span class="thumb_app"><img src="'+ obj.icon_image_url +'" class="ico_app" width="50" height="50" alt="'+ obj.name +'"></span>'+
+                                '<strong class="tit_app"><span class="txt_app">'+ obj.name +'</span></strong>'+
+                                '</div>'+
+                                '</td>'+
+                                '<td>'+ obj.company +'</td>'+
+                                '<td>'+ obj.scopes +'</td>'+
+                                '</tr>'
+                        );
+                    });
+                }
+            },
+            error: function(response){
+                console.log(response);
+            }
+        });
+    }
+
+    $(document).ready(function(){
+        ajax_call();
+
+        $('#privacyBtn').on('click', function(){
+            ajax_call($('#privacySearch').val());
+        });
+    });
+  </script>
+</head>
+<body>
+<div class="kakao_popup">
+  <div class ="popup_privacy">
+    <div class="popup_head">
+      <h1 class="screen_out">카카오 개인정보 취급방침</h1>
+      <h2 class="tit_head">개인정보의 제3자 제공 현황</h2>
+      <p class="desc_privacy">여러분이 이용하는 개인화된 연결서비스는 카카오계정 메뉴의 <br>‘연결된 앱 관리’에 해당 어플리케이션이 표시되어 있느지에 따라 확인할 수 있습니다.</p>
+      <form id="formSearch" name="search" method="get" class="wrap_search" onsubmit="return false">
+        <fieldset>
+          <legend class="screen_out">검색폼</legend>
+          <div class="box_searchbar">
+            <div class="wrap_inp">
+              <label for="privacySearch" class="lab_search">제공받는 자 / 연결서비스 명</label><!-- 검색어 입력시 screen_out 클래스 추가 -->
+              <input type="text" class="tf_search" id="privacySearch" name="privacySearch" autocomplete="off" title="제공받는 자 / 연결서비스 명">
+            </div>
+            <button type="button" id="privacyBtn" class="btn_search">
+              <span class="ir_wa">검색</span>
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <div class="popup_body">
+      <table class="tbl_privacy">
+        <caption class="screen_out">개인정보의 제3자 제공 표</caption>
+        <colgroup>
+          <col>
+          <col>
+          <col>
+          <col>
+        </colgroup>
+        <thead>
+        <tr>
+          <th scope="col" style="width:69px">NO.</th>
+          <th scope="col" style="width:200px">연결서비스</th>
+          <th scope="col" style="width:120px">제공받는 자</th>
+          <th scope="col" style="width:419px">제공하는 개인정보 항목</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <div class="paging_privacy">
+				<span class="inner_paging">
+					<a href="#none" class="btn_prev"><span class="ico_arr">이전</span></a>
+					<span class="screen_out">현재페이지</span><em class="link_page fst">1</em>
+					<!--현재페이지인 경우 em태그로 변경-->
+					<a href="#none" class="link_page">2</a>
+					<a href="#none" class="link_page">3</a>
+					<a href="#none" class="link_page">4</a>
+					<a href="#none" class="link_page">5</a>
+					<a href="#none" class="link_page">6</a>
+					<a href="#none" class="link_page">7</a>
+					<a href="#none" class="link_page">8</a>
+					<a href="#none" class="link_page">9</a>
+					<a href="#none" class="link_page">10</a>
+					<a href="#none" class="btn_next"><span class="ico_arr">다음</span></a>
+				</span>
+      </div>
+    </div>
+    <div class="popup_foot">
+      <small class="info_copyright">Copyright © <a href="http://www.kakaocorp.com" target="_blank" class="link_kakao">Kakao Corp.</a> All rights reserved.</small>
+    </div>
+  </div>
+</div>
+</body>
+</html>
